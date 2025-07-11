@@ -6,3 +6,6 @@ module(
 bazel_dep(name = "rules_cc", version = "0.1.2")
 bazel_dep(name = "rules_foreign_cc", version = "0.15.0")
 bazel_dep(name = "imgui", version = "1.91.8")
+
+apr_deps = use_extension("//third_party/apr:apr.bzl", "apr_deps")
+use_repo(apr_deps, "apr")
