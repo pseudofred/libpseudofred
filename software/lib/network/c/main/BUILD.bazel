@@ -1,0 +1,9 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "network",
+    srcs = ["network.c"],
+    hdrs = ["network.h"],
+    visibility = ["//software/lib/network:__subpackages__"],
+    deps = ["@apr"],
+)
