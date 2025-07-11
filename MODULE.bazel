@@ -1,0 +1,8 @@
+module(
+    name = "libpseudofred",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "rules_cc", version = "0.1.2")
+bazel_dep(name = "rules_foreign_cc", version = "0.15.0")
+bazel_dep(name = "imgui", version = "1.91.8")
