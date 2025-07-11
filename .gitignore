@@ -1,0 +1,8 @@
+# IDE
+.idea
+
+# Bazel
+bazel-*
+
+# Library Specific Annoyances
+imgui.ini
