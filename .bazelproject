@@ -1,0 +1,18 @@
+directories:
+  # Add the directories you ant added as source here
+  # By defaul, we've added your entire workspace ('.')
+  .
+
+derive_targets_from_directories: true
+
+targets:
+  # If source code isn't resolving, add additional targets that compile it here
+  -//software/lib/network/...
+
+additional_languages:
+  # Add or uncomment aditional languages you want supported
+  # android
+  # dart
+  # kotlin
+  # python
+  # scala

@@ -3,6 +3,7 @@
 
 # Bazel
 bazel-*
+.clwb
 
 # Library Specific Annoyances
 imgui.ini
